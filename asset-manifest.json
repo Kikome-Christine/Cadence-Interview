@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/Cadence-Interview/static/css/main.32c95a57.css",
-    "main.js": "/Cadence-Interview/static/js/main.27002df5.js",
+    "main.js": "/Cadence-Interview/static/js/main.6013c28e.js",
     "static/js/453.8b03b11d.chunk.js": "/Cadence-Interview/static/js/453.8b03b11d.chunk.js",
+    "static/media/WhatsApp Image 2025-07-01 at 11.31.49_159c66b9.jpg": "/Cadence-Interview/static/media/WhatsApp Image 2025-07-01 at 11.31.49_159c66b9.119a74aca0bf9159d354.jpg",
+    "static/media/4712035.png": "/Cadence-Interview/static/media/4712035.2bd870469b77e1cf3ca3.png",
     "index.html": "/Cadence-Interview/index.html",
     "main.32c95a57.css.map": "/Cadence-Interview/static/css/main.32c95a57.css.map",
-    "main.27002df5.js.map": "/Cadence-Interview/static/js/main.27002df5.js.map",
+    "main.6013c28e.js.map": "/Cadence-Interview/static/js/main.6013c28e.js.map",
     "453.8b03b11d.chunk.js.map": "/Cadence-Interview/static/js/453.8b03b11d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.32c95a57.css",
-    "static/js/main.27002df5.js"
+    "static/js/main.6013c28e.js"
   ]
 }
