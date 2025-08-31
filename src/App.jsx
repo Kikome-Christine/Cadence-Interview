@@ -2,18 +2,23 @@ import React, { useState, useEffect, useRef } from "react";
 import "./App.css";
 
 function ChatUI() {
+  // Chat state starts with a welcome message from AI
   const [messages, setMessages] = useState([
     { sender: "ai", text: "Hello! How can I help you today?", time: new Date() },
   ]);
+  // Store the current input value from the text field
   const [input, setInput] = useState("");
+  // Track whether the AI is typing
   const [isTyping, setIsTyping] = useState(false);
+  // Dark mode toggle (true = dark, false = light)
   const [darkMode, setDarkMode] = useState(false);
   const chatEndRef = useRef(null);
-
+  // Auto-scroll to the bottom whenever messages or typing state changes
   useEffect(() => {
     chatEndRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages, isTyping]);
 
+  // Handles sending a message and do nothing if input is empty
   const sendMessage = () => {
     if (!input.trim()) return;
 
@@ -44,7 +49,7 @@ function ChatUI() {
         <header className="chat-header">
           <h2>
             <img 
-              src="https://cdn-icons-png.flaticon.com/512/4712/4712035.png" 
+              src="/4712035.png" 
               alt="AI Icon" 
               className="header-icon" 
             />
@@ -71,7 +76,7 @@ function ChatUI() {
             >
               {msg.sender === "ai" && (
                 <img
-                  src="https://cdn-icons-png.flaticon.com/512/4712/4712035.png"
+                  src="/4712035.png"
                   alt="AI"
                   className="avatar"
                 />
@@ -87,7 +92,7 @@ function ChatUI() {
               </div>
               {msg.sender === "user" && (
                 <img
-                  src="https://i.pravatar.cc/40?img=32"
+                  src="/WhatsApp Image 2025-07-01 at 11.31.49_159c66b9.jpg"
                   alt="User"
                   className="avatar"
                 />
@@ -98,7 +103,7 @@ function ChatUI() {
           {isTyping && (
             <div className="message-row ai">
               <img
-                src="https://cdn-icons-png.flaticon.com/512/4712/4712035.png"
+                src="/4712035.png"
                 alt="AI"
                 className="avatar"
               />
