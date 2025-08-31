@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./App.css";
+import aiImage from "./Assets/4712035.png";
+import userImage from "./Assets/WhatsApp Image 2025-07-01 at 11.31.49_159c66b9.jpg"
 
 function ChatUI() {
   // Chat state starts with a welcome message from AI
@@ -49,7 +51,7 @@ function ChatUI() {
         <header className="chat-header">
           <h2>
             <img 
-              src="src/Assets/4712035.png" 
+              src={aiImage} 
               alt="AI Icon" 
               className="header-icon" 
             />
@@ -76,7 +78,7 @@ function ChatUI() {
             >
               {msg.sender === "ai" && (
                 <img
-                  src="src/Assets/4712035.png"
+                  src={aiImage}
                   alt="AI"
                   className="avatar"
                 />
@@ -92,7 +94,7 @@ function ChatUI() {
               </div>
               {msg.sender === "user" && (
                 <img
-                  src="src/Assets/WhatsApp Image 2025-07-01 at 11.31.49_159c66b9.jpg"
+                  src={userImage}
                   alt="User"
                   className="avatar"
                 />
@@ -103,7 +105,7 @@ function ChatUI() {
           {isTyping && (
             <div className="message-row ai">
               <img
-                src="src/Assets/4712035.png"
+                src={aiImage}
                 alt="AI"
                 className="avatar"
               />
