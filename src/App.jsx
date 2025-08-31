@@ -49,7 +49,7 @@ function ChatUI() {
         <header className="chat-header">
           <h2>
             <img 
-              src="/4712035.png" 
+              src="src/Assets/4712035.png" 
               alt="AI Icon" 
               className="header-icon" 
             />
@@ -76,7 +76,7 @@ function ChatUI() {
             >
               {msg.sender === "ai" && (
                 <img
-                  src="/4712035.png"
+                  src="src/Assets/4712035.png"
                   alt="AI"
                   className="avatar"
                 />
@@ -92,7 +92,7 @@ function ChatUI() {
               </div>
               {msg.sender === "user" && (
                 <img
-                  src="/WhatsApp Image 2025-07-01 at 11.31.49_159c66b9.jpg"
+                  src="src/Assets/WhatsApp Image 2025-07-01 at 11.31.49_159c66b9.jpg"
                   alt="User"
                   className="avatar"
                 />
@@ -103,7 +103,7 @@ function ChatUI() {
           {isTyping && (
             <div className="message-row ai">
               <img
-                src="/4712035.png"
+                src="src/Assets/4712035.png"
                 alt="AI"
                 className="avatar"
               />

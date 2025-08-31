@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.32c95a57.css",
-    "main.js": "/static/js/main.bca5562d.js",
-    "static/js/453.8b03b11d.chunk.js": "/static/js/453.8b03b11d.chunk.js",
-    "index.html": "/index.html",
-    "main.32c95a57.css.map": "/static/css/main.32c95a57.css.map",
-    "main.bca5562d.js.map": "/static/js/main.bca5562d.js.map",
-    "453.8b03b11d.chunk.js.map": "/static/js/453.8b03b11d.chunk.js.map"
+    "main.css": "/Cadence-Interview/static/css/main.32c95a57.css",
+    "main.js": "/Cadence-Interview/static/js/main.ff7bc07f.js",
+    "static/js/453.8b03b11d.chunk.js": "/Cadence-Interview/static/js/453.8b03b11d.chunk.js",
+    "index.html": "/Cadence-Interview/index.html",
+    "main.32c95a57.css.map": "/Cadence-Interview/static/css/main.32c95a57.css.map",
+    "main.ff7bc07f.js.map": "/Cadence-Interview/static/js/main.ff7bc07f.js.map",
+    "453.8b03b11d.chunk.js.map": "/Cadence-Interview/static/js/453.8b03b11d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.32c95a57.css",
-    "static/js/main.bca5562d.js"
+    "static/js/main.ff7bc07f.js"
   ]
 }
